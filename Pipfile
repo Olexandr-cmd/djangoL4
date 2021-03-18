@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = '==3.12.2'
+mysqlclient = "*"
+django = "*"
+asgiref = "*"
+pytz = "*"
+sqlparse = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
